@@ -4,6 +4,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: tetris-deployment
+  namespace: gitops-test
 spec:
   replicas: 1 # You can adjust the number of replicas as needed
   selector:
